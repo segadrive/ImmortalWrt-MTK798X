@@ -7,7 +7,7 @@
 说明：
 
  21.02闭源WIFI固件（基于immortalwrt）
- 24.10闭源WIFI固件（基于immortalwrt）
+ 24.10-6.6闭源WIFI固件（基于immortalwrt）
 
  默认地址：192.168.1.1  密码：无，直接回车。
 
