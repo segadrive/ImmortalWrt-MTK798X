@@ -10,6 +10,7 @@
  24.10闭源WIFI固件（基于immortalwrt）
 
  默认地址：192.168.1.1  密码：无，直接回车。
+
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
