@@ -13,6 +13,7 @@
 
 237大佬源码网址: https://github.com/padavanonly/immortalwrt-mt798x-24.10
 
+hanwckf大佬源码网址: https://github.com/hanwckf/immortalwrt-mt798x
 
 注意事项：
 
