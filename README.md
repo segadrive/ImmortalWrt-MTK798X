@@ -11,6 +11,22 @@
 
  默认地址：192.168.1.1  密码：无，直接回车。
 
+237大佬源码网址: https://github.com/padavanonly/immortalwrt-mt798x-24.10
+
+使用p3terx云编译模板
+
+固件位置： https://github.com/sonytxl/xiaomi-360-cmcc-immortalwrt/releases
+
+注意事项：
+
+ 不死u-boot用 H 大的刷，地址：https://github.com/hanwckf/bl-mt798x/releases
+
+ u-boot 刷机方法：https://cmi.hanwckf.top/p/mt798x-uboot-usage
+
+ 更新刷写固件时，跨版本更新的，记得不要保存设置，每次更新系统后再按住 rest键8 秒复位一次
+
+ 刷写完新固件后，尤其是跨版本更新的，记得先清理浏览器缓存，再访问路由器进行设置。
+ 
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
