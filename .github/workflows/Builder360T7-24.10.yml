@@ -7,7 +7,7 @@
 #
 
 # 工作流名称（GitHub Actions 页面显示的名称，自定义为“360T7BBRv3 编译”）
-name: ImmortalWrt Builder 360T7BBRv3
+name: ImmortalWrt 360T7-24.40
 
 # 工作流触发条件
 on:
@@ -19,9 +19,9 @@ env:
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6  # ImmortalWrt源码地址（适配MT798x芯片，6.6内核）
   REPO_BRANCH: openwrt-24.10-6.6                                   # 源码分支（24.10版本，6.6内核）
   FEEDS_CONF: feeds.conf.default                                   # 自定义feeds配置文件名称（软件源）
-  CONFIG_FILE: qihoo-360t7-imm.config                              # 360T7专用编译配置文件（固件功能选择）
-  DIY_P1_SH: diy-part1.sh                                          # 自定义脚本1（编译前准备：添加feeds、修改源码等）
-  DIY_P2_SH: diy-part2.sh                                          # 自定义脚本2（编译前最后调整：改IP、开BBRv3等）
+  CONFIG_FILE: 24.10/360T7-24.10.config                              # 360T7专用编译配置文件（固件功能选择）
+  DIY_P1_SH: 24.10/diy-part1.sh                                          # 自定义脚本1（编译前准备：添加feeds、修改源码等）
+  DIY_P2_SH: 24.10/diy-part2.sh                                          # 自定义脚本2（编译前最后调整：改IP、开BBRv3等）
   UPLOAD_BIN_DIR: false                                             # 是否上传完整bin目录（体积大，包含中间文件，建议关闭）
   UPLOAD_FIRMWARE: true                                            # 是否上传最终固件目录（只保留可刷写的固件，建议开启）
   UPLOAD_RELEASE: true                                             # 是否将固件发布到GitHub Release（方便下载，建议开启）
