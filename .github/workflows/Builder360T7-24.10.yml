@@ -57,6 +57,18 @@ jobs:
         # 创建编译目录并授权（避免权限不足）
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
+        # 在初始化环境阶段添加（替换原有的 swapfile 相关代码）
+   # 新增变量
+    - name: 配置交换文件（解决权限问题）
+      run: |
+       # 创建有权限的 swapfile（放在 runner 用户目录）
+       sudo fallocate -l 8G /home/runner/swapfile
+       sudo chmod 600 /home/runner/swapfile
+       sudo mkswap /home/runner/swapfile
+       sudo swapon /home/runner/swapfile
+       # 验证 swap 是否生效
+       swapon --show
+       free -h
 
     # 步骤3：克隆ImmortalWrt源码（到/workdir目录，避免根目录空间不足）
     - name: Clone source code
