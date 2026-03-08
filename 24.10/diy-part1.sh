@@ -11,24 +11,24 @@
 #
 
 # istore
-git clone --depth=1 https://github.com/linkease/istore  package/istore
-git clone --depth=1 https://github.com/linkease/nas-packages  package/nas
-git clone --depth=1 https://github.com/linkease/nas-packages-luci  package/nas-luci
+# git clone --depth=1 https://github.com/linkease/istore  package/istore
+# git clone --depth=1 https://github.com/linkease/nas-packages  package/nas
+# git clone --depth=1 https://github.com/linkease/nas-packages-luci  package/nas-luci
 
 # 科学插件
 # Passwall 
 # echo 'src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git' >> feeds.conf.default
-echo 'src-git passwall https://github.com/Openwrt-Passwall/openwrt-passwall.git' >> feeds.conf.default
-echo 'src-git passwall2 https://github.com/Openwrt-Passwall/openwrt-passwall2.git' >> feeds.conf.default
+# echo 'src-git passwall https://github.com/Openwrt-Passwall/openwrt-passwall.git' >> feeds.conf.default
+# echo 'src-git passwall2 https://github.com/Openwrt-Passwall/openwrt-passwall2.git' >> feeds.conf.default
 # OpenClash 
 echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >> feeds.conf.default
 # Nikki / Momo
-echo 'src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git' >> feeds.conf.default
-echo 'src-git momo https://github.com/nikkinikki-org/OpenWrt-momo.git' >> feeds.conf.default
+# echo 'src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git' >> feeds.conf.default
+# echo 'src-git momo https://github.com/nikkinikki-org/OpenWrt-momo.git' >> feeds.conf.default
 # Daed (指定 kix 分支)
-echo 'src-git daed https://github.com/QiuSimons/luci-app-daed.git;kix' >> feeds.conf.default
+# echo 'src-git daed https://github.com/QiuSimons/luci-app-daed.git;kix' >> feeds.conf.default
 # Helloworld (SSR+)
-echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
+# echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
 
 # === 功能插件 Feeds ===
 # Lucky (大吉大利，端口转发/反向代理神器)
@@ -48,8 +48,8 @@ echo 'src-git tailscale_community https://github.com/Tokisaki-Galaxy/luci-app-ta
 echo 'src-git owq_wol https://github.com/isalikai/luci-app-owq-wol.git' >> feeds.conf.default
 
 # 主题
-git clone --depth=1 -b openwrt-25.12 https://github.com/sbwml/luci-theme-argon package/argon
-echo 'src-git aurora https://github.com/eamonxg/luci-theme-aurora.git' >> feeds.conf.default
-echo 'src-git aurora_config https://github.com/eamonxg/luci-app-aurora-config.git' >> feeds.conf.default
-echo 'src-git kucat https://github.com/sirpdboy/luci-theme-kucat.git' >> feeds.conf.default
-echo 'src-git kucat_config https://github.com/sirpdboy/luci-app-kucat-config.git' >> feeds.conf.default
+# git clone --depth=1 -b openwrt-25.12 https://github.com/sbwml/luci-theme-argon package/argon
+# echo 'src-git aurora https://github.com/eamonxg/luci-theme-aurora.git' >> feeds.conf.default
+# echo 'src-git aurora_config https://github.com/eamonxg/luci-app-aurora-config.git' >> feeds.conf.default
+# echo 'src-git kucat https://github.com/sirpdboy/luci-theme-kucat.git' >> feeds.conf.default
+# echo 'src-git kucat_config https://github.com/sirpdboy/luci-app-kucat-config.git' >> feeds.conf.default
