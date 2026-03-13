@@ -50,6 +50,8 @@ echo 'src-git owq_wol https://github.com/isalikai/luci-app-owq-wol.git' >> feeds
 echo 'src-git timecontrol https://github.com/gaobin89/luci-app-timecontrol.git' >> feeds.conf.default
 # modem (穿透光猫)
 echo 'src-git modem https://github.com/zyqfork/luci-app-ap-modem.git' >> feeds.conf.default
+# partexp (一键分区扩容)
+echo 'src-git partexp https://github.com/sirpdboy/luci-app-partexp.git' >> feeds.conf.default
 
 # 主题
 # git clone --depth=1 -b openwrt-25.12 https://github.com/sbwml/luci-theme-argon package/argon
