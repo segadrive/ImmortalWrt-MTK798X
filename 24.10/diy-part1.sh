@@ -21,7 +21,7 @@ git clone --depth=1 https://github.com/linkease/nas-packages-luci  package/nas-l
 # echo 'src-git passwall https://github.com/Openwrt-Passwall/openwrt-passwall.git' >> feeds.conf.default
 # echo 'src-git passwall2 https://github.com/Openwrt-Passwall/openwrt-passwall2.git' >> feeds.conf.default
 # OpenClash 
-echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >> feeds.conf.default
+# echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >> feeds.conf.default
 # Nikki / Momo
 # echo 'src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git' >> feeds.conf.default
 # echo 'src-git momo https://github.com/nikkinikki-org/OpenWrt-momo.git' >> feeds.conf.default
